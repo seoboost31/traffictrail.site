@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TrafficTrail — Traffic Analytics SaaS</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Lexend,sans-serif;background:#07111f;color:#eef;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;background:
+linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+background-size:40px 40px;opacity:.35;z-index:-2}
+.glow{position:fixed;width:420px;height:420px;border-radius:50%;filter:blur(80px);background:#00d2ff33;top:-80px;right:-80px;z-index:-1}
+header{padding:22px 7%;display:flex;justify-content:space-between}
+.hero{padding:60px 7% 40px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}
+h1{font-size:58px;line-height:1.05}.btn{display:inline-block;margin-top:24px;background:#6cff7d;color:#04110d;padding:15px 28px;border-radius:999px;text-decoration:none;font-weight:700}
+.canvas{position:relative;height:520px}
+.card{position:absolute;background:rgba(255,255,255,.08);backdrop-filter:blur(14px);padding:18px;border:1px solid rgba(255,255,255,.12);border-radius:18px}
+.c1{left:10%;top:8%;width:180px}.c2{right:8%;top:22%;width:180px}.c3{left:25%;bottom:16%;width:190px}.c4{right:18%;bottom:8%;width:170px}
+.line{position:absolute;height:2px;background:#00d2ff66;transform-origin:left}
+.l1{left:170px;top:88px;width:170px;transform:rotate(18deg)}
+.l2{left:120px;top:250px;width:220px;transform:rotate(-12deg)}
+.l3{left:290px;top:320px;width:120px;transform:rotate(30deg)}
+section{padding:60px 7%}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.box{background:#101d30;padding:22px;border-radius:18px}.kpi{font-size:34px;color:#6cff7d}
+footer{padding:30px;text-align:center;background:#0b1727}
+</style></head><body><div class="glow"></div>
+<header><strong>TrafficTrail</strong><nav>Platform • Insights • Pricing</nav></header>
+<div class="hero"><div><p style="color:#6cff7d">AI Traffic Intelligence</p><h1>See Every Visitor.<br>Understand Every Click.</h1><p style="margin-top:18px;color:#b8c4d7">Monitor live traffic, discover acquisition channels, visualize visitor journeys and uncover conversion opportunities with AI-powered analytics.</p><a class="btn" href="#">Start Free Analytics</a></div>
+<div class="canvas">
+<div class="line l1"></div><div class="line l2"></div><div class="line l3"></div>
+<div class="card c1"><div class="kpi">12.8K</div>Visitors</div>
+<div class="card c2"><div class="kpi">63%</div>Organic</div>
+<div class="card c3"><div class="kpi">4.9%</div>Conversion</div>
+<div class="card c4"><div class="kpi">98ms</div>Realtime</div>
+</div></div>
+<section><div class="grid">
+<div class="box"><h3>Journey Mapping</h3><p>Visualize every customer path.</p></div>
+<div class="box"><h3>Traffic Sources</h3><p>Organic, paid, social and referral.</p></div>
+<div class="box"><h3>AI Alerts</h3><p>Detect unusual traffic instantly.</p></div>
+<div class="box"><h3>Executive Reports</h3><p>Share polished analytics summaries.</p></div>
+</div></section>
+<footer>© 2026 TrafficTrail</footer></body></html>
